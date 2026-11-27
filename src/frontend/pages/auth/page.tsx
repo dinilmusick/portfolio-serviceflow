@@ -1,0 +1,1 @@
+export default function AuthPage(){return <section className="stack"><div className="hero-panel"><div><span className="eyebrow">AUTHENTICATION</span><h2>Workspace access belongs to the platform shell.</h2><p>This portfolio demo keeps authentication as a replaceable application boundary so the domain surfaces stay focused on service operations.</p></div></div></section>;}
