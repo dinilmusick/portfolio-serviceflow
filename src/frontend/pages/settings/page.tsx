@@ -1,0 +1,6 @@
+import { BaseBadge, BaseCard } from '@ultrst-armada/floks/ui';
+export default function SettingsPage({theme,onThemeChange}:{theme:'light'|'dark';onThemeChange:(v:'light'|'dark')=>void}){
+ return <section className="stack"><div className="page-intro"><div><span className="eyebrow">WORKSPACE CONTROL</span><h2>Settings</h2><p>Manage the operating defaults for this demo workspace.</p></div><BaseBadge variant="success">Healthy</BaseBadge></div>
+ <div className="settings-grid"><BaseCard className="settings-panel"><span className="eyebrow">APPEARANCE</span><h3>Display preference</h3><p className="muted">ServiceFlow keeps the selected theme locally in the app shell.</p><div className="segmented"><button className={theme==='light'?'selected':''} onClick={()=>onThemeChange('light')}>Light</button><button className={theme==='dark'?'selected':''} onClick={()=>onThemeChange('dark')}>Dark</button></div></BaseCard>
+ <BaseCard className="settings-panel"><span className="eyebrow">WORKSPACE</span><h3>Northstar Studio</h3><p className="muted">Pro plan · 4 teammates · 126 customers</p><div className="mini-list"><div><span>Booking window</span><strong>30 days</strong></div><div><span>Timezone</span><strong>Europe/London</strong></div><div><span>Notifications</span><strong>Enabled</strong></div></div></BaseCard></div></section>;
+}
