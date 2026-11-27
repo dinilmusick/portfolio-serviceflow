@@ -1,0 +1,1 @@
+export default function WorkspacesPage(){return <section className="stack"><div className="page-intro"><div><span className="eyebrow">WORKSPACES</span><h2>Northstar Studio</h2><p>Workspace selection is intentionally kept outside domain features.</p></div></div></section>;}
