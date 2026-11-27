@@ -14,6 +14,7 @@
   "dependencies": {
     "@ultrst-armada/floks": "2.0.19",
     "@ultrst-armada/kloks": "3.0.24",
+    "@ultrst-armada/krnl": "^1.0.34",
     "lucide-react": "^0.553.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
