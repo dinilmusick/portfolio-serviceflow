@@ -16,9 +16,7 @@
     "@ultrst-armada/kloks": "3.0.24",
     "lucide-react": "^0.553.0",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "@ultrst-armada/frnlts": "0.5.28",
-    "@ultrst-armada/krnl": "^1.0.31"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
