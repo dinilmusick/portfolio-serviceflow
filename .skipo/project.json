@@ -1,0 +1,9 @@
+{
+  "application":"ServiceFlow",
+  "framework":"Skipo",
+  "provider_libraries":["@ultrst-armada/floks","@ultrst-armada/kloks"],
+  "source_pattern":"tpl-saas-nextjs",
+  "source_mode":"reference-only",
+  "canonical_frontend":["src/frontend/pages/auth","src/frontend/pages/menus/workspaces","src/frontend/pages/main","src/frontend/pages/settings"],
+  "domain_capabilities":["service-catalogue","bookings","customer-crm","revenue-metrics"]
+}
