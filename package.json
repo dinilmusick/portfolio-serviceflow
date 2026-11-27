@@ -1,45 +1,11 @@
 {
-  "name": "portfolio-serviceflow",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "description": "ServiceFlow — portfolio-grade service business SaaS demo built with Skipo, Floks and Kloks.",
-  "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest run",
-    "check": "npm run typecheck && npm run test && npm run build"
-  },
-  "dependencies": {
-    "@ultrst-armada/floks": "2.0.19",
-    "@ultrst-armada/kloks": "3.0.24",
-    "lucide-react": "^0.553.0",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "@ultrst-armada/frnlts": "0.5.28",
-    "@ultrst-armada/krnl": "^1.0.31"
-  },
-  "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "@vitejs/plugin-react": "^5.0.4",
-    "typescript": "^5.8.3",
-    "vite": "^6.2.3",
-    "vitest": "^3.1.0"
-  },
-  "engines": {
-    "node": ">=22"
-  },
-  "skipo": {
-    "deploy": "fullstack",
-    "composition": "canonical-libraries",
-    "capabilities": [
-      "auth",
-      "workspace",
-      "serviceflow-booking",
-      "customer-crm"
-    ]
-  }
+  "name":"portfolio-serviceflow",
+  "version":"0.1.0",
+  "private":true,
+  "type":"module",
+  "description":"ServiceFlow — portfolio-grade service business SaaS demo built with Skipo, Floks and Kloks.",
+  "scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","typecheck":"tsc --noEmit","test":"vitest run","check":"npm run typecheck && npm run test && npm run build"},
+  "dependencies":{"@ultrst-armada/floks":"2.0.19","@ultrst-armada/kloks":"3.0.24","@ultrst-armada/krnl":"^1.0.34","lucide-react":"^0.553.0","react":"19.1.0","react-dom":"19.1.0"},
+  "devDependencies":{"@types/node":"^22.0.0","@types/react":"^19.0.0","@types/react-dom":"^19.0.0","@vitejs/plugin-react":"^5.0.4","typescript":"^5.8.3","vite":"^6.2.3","vitest":"^3.1.0"},
+  "engines":{"node":">=22"}
 }
